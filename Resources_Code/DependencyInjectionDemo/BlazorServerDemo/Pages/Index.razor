@@ -1,8 +1,14 @@
 ﻿@page "/"
-
+@inject Demo _demo
 <PageTitle>Index</PageTitle>
 
 <h1>Hello, world!</h1>
+@*
+    As we use demo class instance by depepndency injection we can use the thing 
+    that is available in that demo class and as we use Transient we can get different 
+    time everytime we refresh the page cause that is the property of transient property
+*@
+<h2>Demo StartUp Time: @_demo.StartUpTime.ToString("hh:mm:ss ffffff") </h2>
 
 Welcome to your new app.
 
