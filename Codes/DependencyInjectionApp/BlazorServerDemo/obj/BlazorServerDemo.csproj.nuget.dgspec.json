@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Dependency Injection\\iamtimcorey - .NET Core Dependency Injection In Depth 2021-9\\DependencyInjectionTimCorey\\Video 8 Where Code Started\\DependencyInjectionApp\\BlazorServerDemo\\BlazorServerDemo.csproj": {}
+    "E:\\Dependency Injection\\iamtimcorey - .NET Core Dependency Injection In Depth 2021-9\\DependencyInjectionTimCorey\\Codes\\DependencyInjectionApp\\BlazorServerDemo\\BlazorServerDemo.csproj": {}
   },
   "projects": {
-    "E:\\Dependency Injection\\iamtimcorey - .NET Core Dependency Injection In Depth 2021-9\\DependencyInjectionTimCorey\\Video 8 Where Code Started\\DependencyInjectionApp\\BlazorServerDemo\\BlazorServerDemo.csproj": {
+    "E:\\Dependency Injection\\iamtimcorey - .NET Core Dependency Injection In Depth 2021-9\\DependencyInjectionTimCorey\\Codes\\DependencyInjectionApp\\BlazorServerDemo\\BlazorServerDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Dependency Injection\\iamtimcorey - .NET Core Dependency Injection In Depth 2021-9\\DependencyInjectionTimCorey\\Video 8 Where Code Started\\DependencyInjectionApp\\BlazorServerDemo\\BlazorServerDemo.csproj",
+        "projectUniqueName": "E:\\Dependency Injection\\iamtimcorey - .NET Core Dependency Injection In Depth 2021-9\\DependencyInjectionTimCorey\\Codes\\DependencyInjectionApp\\BlazorServerDemo\\BlazorServerDemo.csproj",
         "projectName": "BlazorServerDemo",
-        "projectPath": "E:\\Dependency Injection\\iamtimcorey - .NET Core Dependency Injection In Depth 2021-9\\DependencyInjectionTimCorey\\Video 8 Where Code Started\\DependencyInjectionApp\\BlazorServerDemo\\BlazorServerDemo.csproj",
+        "projectPath": "E:\\Dependency Injection\\iamtimcorey - .NET Core Dependency Injection In Depth 2021-9\\DependencyInjectionTimCorey\\Codes\\DependencyInjectionApp\\BlazorServerDemo\\BlazorServerDemo.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Dependency Injection\\iamtimcorey - .NET Core Dependency Injection In Depth 2021-9\\DependencyInjectionTimCorey\\Video 8 Where Code Started\\DependencyInjectionApp\\BlazorServerDemo\\obj\\",
+        "outputPath": "E:\\Dependency Injection\\iamtimcorey - .NET Core Dependency Injection In Depth 2021-9\\DependencyInjectionTimCorey\\Codes\\DependencyInjectionApp\\BlazorServerDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
