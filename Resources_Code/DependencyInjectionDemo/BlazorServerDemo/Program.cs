@@ -12,7 +12,7 @@ builder.Services.AddTransient<Demo>();
 // Here we use AddTransient that means everytime we use Demo Class it will create
 // a new instance for it.
 // Here we are actually registering the services.
-
+builder.Services.AddSingleton<Demo2>();
 
 
 
