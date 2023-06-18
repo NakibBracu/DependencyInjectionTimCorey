@@ -13,6 +13,7 @@ builder.Services.AddTransient<Demo>();
 // a new instance for it.
 // Here we are actually registering the services.
 builder.Services.AddSingleton<Demo2>();
+builder.Services.AddTransient<ProcessDemo>();
 
 
 
