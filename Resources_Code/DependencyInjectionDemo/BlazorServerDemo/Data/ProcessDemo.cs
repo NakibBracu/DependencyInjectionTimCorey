@@ -17,7 +17,7 @@
             return _demo.StartUpTime.Month switch
             {
                 1 => 31,
-                2 => 28,
+                2 => (_demo.StartUpTime.Year % 4 == 0) ? 29 : 28,
                 3 => 31,
                 4 => 30,
                 5 => 31,
@@ -28,7 +28,6 @@
                 10 => 31,   
                 11 => 30,
                 12 => 31,
-
                 _ => throw new IndexOutOfRangeException()
             };
         }
