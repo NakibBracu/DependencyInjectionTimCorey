@@ -4,6 +4,7 @@
 @inject Demo2 _demo2
 @inject ProcessDemo _processDemo
 @inject Demo3 _demo3
+@inject Demo3 _demo3Second
 @inject Demo4 _demo4
 <PageTitle>Index</PageTitle>
 
@@ -23,6 +24,7 @@
 <h2>Demo StartUp Time from Demo1 with new instance : @_demoAgain.StartUpTime.ToString("hh:mm:ss ffffff") </h2>
 <h2>Demo StartUp Time from Demo2 [unchanged]: @_demo2.StartUpTime.ToString("hh:mm:ss ffffff") </h2>
 <h2>Demo StartUp Time from Demo3 [changed but scopedwise]: @_demo3.StartUpTime.ToString("hh:mm:ss ffffff") </h2>
+<h2>Demo StartUp Time from Demo3secondObject [changed but scopedwise]: @_demo3Second.StartUpTime.ToString("hh:mm:ss ffffff") </h2>
 <h2>Demo StartUp Time from Demo4 [changed but scopedwise]: @_demo4.StartUpTime.ToString("hh:mm:ss ffffff") </h2>
 <h2>Total Days in this Month is: [Way 1] @_processDemo.GetDaysInMonth() </h2>
 <h2>Total Days in this Month is: [Way 2] @_processDemo.GetDaysInMonthWay2() </h2>
