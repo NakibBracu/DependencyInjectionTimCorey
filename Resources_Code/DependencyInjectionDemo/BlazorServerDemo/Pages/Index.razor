@@ -13,6 +13,8 @@
     for demo2 we use singleton that means for lifetime only one instance has been created!
     as _demoAgain is a new instance of Demo class and we use addtransient , thats the reason for 
     new time cause everytime we create new instances.
+    If we use singleton it will not release the memory though we refresh the page because we use the
+    same instance everytime.
 *@
 <h2>Demo StartUp Time from Demo1 [changed everytime]: @_demo.StartUpTime.ToString("hh:mm:ss ffffff") </h2>
 <h2>Demo StartUp Time from Demo1 with new instance : @_demoAgain.StartUpTime.ToString("hh:mm:ss ffffff") </h2>
