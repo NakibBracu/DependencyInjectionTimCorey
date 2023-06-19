@@ -2,12 +2,12 @@
 {
     public class ProcessDemo
     {
-        private readonly Demo _demo;
+        private readonly IDemo _demo;
         // Here we use dependency injection through Constructor, that means constructor injection happened!
         // This ProcessDemo class is using the Demo Class method here by Constructor.
         // When this class constructor called this will first instantiate the object of Demo Class from program.cs
         // by binding singleton,transient etc. and then instantiate processDemo object and do the rest of the work!
-        public ProcessDemo(Demo demo)
+        public ProcessDemo(IDemo demo)
         {
             _demo = demo;
         }

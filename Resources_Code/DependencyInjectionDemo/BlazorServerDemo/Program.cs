@@ -8,12 +8,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
-builder.Services.AddTransient<Demo>();
+builder.Services.AddTransient<IDemo,Demo>();
+builder.Services.AddTransient<ProcessDemo>();
 // Here we use AddTransient that means everytime we use Demo Class it will create
 // a new instance for it.
 // Here we are actually registering the services.
 builder.Services.AddSingleton<Demo2>();
-builder.Services.AddTransient<ProcessDemo>();
+
 builder.Services.AddScoped<Demo3>();//everytime I hit a request it changes ; if we use it in a single page we get the
                                         //same result everytime but when we refresh or go to another page we will see changes
                                         // this is called changed per scoped
