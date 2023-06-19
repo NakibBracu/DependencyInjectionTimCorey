@@ -14,7 +14,10 @@ builder.Services.AddTransient<Demo>();
 // Here we are actually registering the services.
 builder.Services.AddSingleton<Demo2>();
 builder.Services.AddTransient<ProcessDemo>();
-
+builder.Services.AddScoped<Demo3>();//everytime I hit a request it changes ; if we use it in a single page we get the
+                                        //same result everytime but when we refresh or go to another page we will see changes
+                                        // this is called changed per scoped
+builder.Services.AddScoped<Demo4>();
 
 
 var app = builder.Build();
