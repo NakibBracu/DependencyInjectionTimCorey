@@ -1,5 +1,6 @@
 ﻿@page "/"
 @inject Demo _demo
+@inject Demo _demoAgain
 @inject Demo2 _demo2
 @inject ProcessDemo _processDemo
 <PageTitle>Index</PageTitle>
@@ -10,8 +11,11 @@
     that is available in that demo class and as we use Transient we can get different 
     time everytime we refresh the page cause that is the property of transient property
     for demo2 we use singleton that means for lifetime only one instance has been created!
+    as _demoAgain is a new instance of Demo class and we use addtransient , thats the reason for 
+    new time cause everytime we create new instances.
 *@
 <h2>Demo StartUp Time from Demo1 [changed everytime]: @_demo.StartUpTime.ToString("hh:mm:ss ffffff") </h2>
+<h2>Demo StartUp Time from Demo1 with new instance : @_demoAgain.StartUpTime.ToString("hh:mm:ss ffffff") </h2>
 <h2>Demo StartUp Time from Demo2 [unchanged]: @_demo2.StartUpTime.ToString("hh:mm:ss ffffff") </h2>
 <h2>Total Days in this Month is: [Way 1] @_processDemo.GetDaysInMonth() </h2>
 <h2>Total Days in this Month is: [Way 2] @_processDemo.GetDaysInMonthWay2() </h2>
