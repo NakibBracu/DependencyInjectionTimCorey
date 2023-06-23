@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
-builder.Services.AddTransient<IDemo, UtcDemo>();
+builder.Services.AddTransient<IDemo, UtcDemo>();//just by doing the binding with UtcDemo, All IDemo type will get Utcdemo
 builder.Services.AddTransient<ProcessDemo>();
 // Here we use AddTransient that means everytime we use Demo Class it will create
 // a new instance for it.
